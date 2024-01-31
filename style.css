@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color:  rgb(255, 110, 94 );
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li{
+    padding: 1% 5% 1% 5%;
+}
+.menu-bar img{
+    width: 20px;
+    align-items: center;
+}
+.container {
+    display: flex;
+}
+.block1{ 
+    background-color: pink;
+    width: 50%;
+}
+.content{
+    margin: 100px;
+    /* background-color: aqua; */
+    width: 500px;
+}
+.block2{
+    background-color: pink;
+}
+.block2 img{
+    width: 100%;
+}
+.heading{
+    padding: 30px 0 ; 
+    width: 500px;
+    font-size: x-large;    
+}
+.para{
+    width: 500px;
+    /* background-color: blueviolet; */
+}
+button {
+    cursor: pointer;
+    border: 0;
+    text-align: center;
+    color: white;
+    height: 35px;
+    width: 160px;
+    box-shadow: 0%;
+    border-color: pink;
+    margin-top: 30px;
+    background-color:  rgb(255, 110, 94 );
+}
+.container2{
+    display: flex;
+    /* padding: 200px; */
+    background-color: pink;
+}
+.cont{
+    margin-left: 160px;
+}
+.img1 img{
+    padding: 10px;
+    width: 250px;
+    height: 220px;
+}
+.img2 img{
+    padding: 10px;
+    width: 250px;
+    height: 460px;
+    /* margin-left: 10%; */
+}
+.content2{
+    margin-top: 70px;
+    height: 230px;
+    width:500px ;
+    background-color: rgb(255, 110, 94);
+    margin-left: 100px;
+}
+.text{
+    padding: 5% 5% 0 ;
+}
+.head{
+    padding: 5% 5% 0 ;
+    font-size: x-large; 
+}
+.click{
+    display: flex;
+    padding: 10% 5% 0 ;
+    margin-bottom: 7px;
+    width: 10px;
+}
+.click img{
+    margin-left:50% ;
+    width: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    nav {
+      padding: 10px 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    ul {
+      flex-direction: row;
+    }
+  
+    .block1 {
+      text-align: left;
+    }
+  
+    .block2 img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .cont {
+      justify-content: space-between;
+    }
+  
+    .img1 {
+      width: 48%;
+      margin-bottom: 0;
+    }
+  
+    .img2 {
+      width: 48%;
+    }
+  }
